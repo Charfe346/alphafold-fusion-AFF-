@@ -61,3 +61,40 @@ git clone https://github.com/Charfe346/alphafold-fusion-AFF-.git
 cd alphafold-fusion-AFF-
 npm install
 npm run dev
+## Technology Stack
+
+| Component | Technology |
+|-----------|-----------|
+| Frontend | React 19 + TypeScript |
+| Styling | Tailwind CSS v4 |
+| 3D Viewer | 3Dmol.js |
+| Build | Vite 7 |
+| Deployment | Vercel |
+| MD Engine | OpenMM (generated scripts) |
+
+## Structure Acquisition Hierarchy
+Input → ESM Atlas (MGYP) or AFDB (UniProt)/ ESMFold (direct/chunked)
+## MD Lab: Restraint Model
+
+Force constants derived from the equipartition theorem:
+
+**k = 3k_BT / σ²**
+
+where σ is the positional uncertainty mapped from pLDDT (Jumper et al., 2021). IDR regions (TOP-IDP scale, Campen et al., 2008) receive k=0.
+
+## References
+
+- Jumper, J. et al. (2021) Nature, 596, 583–589
+- Campen, A. et al. (2008) Protein Pept. Lett., 15, 956–963
+- Lin, Z. et al. (2023) Science, 379, 1123–1130
+- Mirdita, M. et al. (2022) Nat. Methods, 19, 679–682
+- Eastman, P. et al. (2017) PLoS Comput. Biol., 13, e1005659
+
+## License
+
+MIT License — see [LICENSE]
+
+## Contact
+
+Charfeddine Gharsallah — charfeddine.gharsallah@pasteur.fr
+Institut Pasteur, Université Paris Cité, INSERM U1347
