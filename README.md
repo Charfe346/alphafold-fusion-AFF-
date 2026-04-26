@@ -2,7 +2,7 @@
 
 **Physics-Based Protein Structure Interpretation and Simulation-Ready Exports**
 
-[![Live Demo](https://img.shields.io/badge/Live-Demo-brightgreen)](https://alphafold-fusion.vercel.app)
+[![Live Demo](https://img.shields.io/badge/Live-Demo-brightgreen)](https://alphafold-fusion-6demeeil3-charfe346s-projects.vercel.app/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
 ## Publication
@@ -17,7 +17,7 @@
 
 ## Web Application
 
-🌐 **Live:** [https://alphafold-fusion.vercel.app](https://alphafold-fusion.vercel.app)
+🌐 **Live:** [https://alphafold-fusion-6demeeil3-charfe346s-projects.vercel.app/)
 
 ### Features
 - 3D protein structure visualization (3Dmol.js)
